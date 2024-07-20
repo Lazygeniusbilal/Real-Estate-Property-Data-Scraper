@@ -19,11 +19,11 @@ This project is a web scraper that collects real estate property data from the G
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/real-estate-property-data-scraper.git
+    git clone https://github.com/Lazygeniusbilal/Real-Estate-Property-Data-Scraper.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd real-estate-property-data-scraper
+    cd Real-Estate-Property-Data-Scraper
     ```
 3. Install the required dependencies:
     ```bash
@@ -31,9 +31,9 @@ This project is a web scraper that collects real estate property data from the G
     ```
 
 ## Usage
-1. Run the scraper script:
+1. Run the scraping script:
     ```bash
-    python scraper.py
+    python main.py
     ```
 2. The script will fetch property data and store it in a pandas DataFrame. You can modify the script to save the data to a CSV file or any other format as needed.
 
