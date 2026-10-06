@@ -1,2 +1,8 @@
 myvenv
 goals.md
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+data/
+.next/
