@@ -49,4 +49,25 @@ The current dataset in this repository is for first 2 pages. You can adjust the 
 Install the dependencies using the command:
 ```bash
 pip install pandas numpy requests beautifulsoup4
- 
+```
+
+## Project Layout
+- `src/graana/` — Python backend package (uv-managed)
+- `frontend/` — Next.js + TypeScript + Tailwind app
+- `data/` — local data output (git-ignored)
+- `main.py` — legacy scraper script, kept until the new pipeline lands
+
+## Backend (uv)
+```bash
+uv sync
+uv run python -c "import graana"
+```
+
+## Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+npm run build
+npm run lint
+```

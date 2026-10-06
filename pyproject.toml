@@ -1,0 +1,18 @@
+[project]
+name = "graana"
+version = "0.1.0"
+description = "Graana Market Intelligence — data pipeline, API, and dashboard backend"
+authors = [
+    { name = "Lazygeniusbilal", email = "bilal.ahmed38980@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "requests>=2.34.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
